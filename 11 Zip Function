@@ -1,0 +1,15 @@
+import threading
+
+class thread(threading.Thread):
+    def run(self):     #must have run function
+        for _ in range(50):
+            print(threading.current_thread().getName())
+
+x=thread(name="send msg\n")  #default name as the parameter
+y=thread(name="receive msg\n")
+
+x.start()   #start() function  to call run() function
+y.start()   #start() function
+
+
+#Threat having start() --> run()
