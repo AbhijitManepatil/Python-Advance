@@ -1,0 +1,11 @@
+class parent():
+    a=10
+
+class child(parent):
+    def abc(self):
+         b=10
+         c=parent.a+b
+         print(c)
+
+ob=child()
+ob.abc()
