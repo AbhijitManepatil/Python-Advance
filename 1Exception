@@ -1,0 +1,7 @@
+print 'Hi'
+number1=input("Enter 1st No.")
+number2=input("Enter 2nd No")
+total=number1+number2
+print total
+
+
