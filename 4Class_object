@@ -1,0 +1,14 @@
+class ABC:
+    no1=input('Enter the 1st no')
+    no2=input('Enter the 2nd no')
+    def add(self):
+        no3=self.no1+self.no2
+        print no3
+    def sub(self):
+        no4=self.no1-self.no2
+        print no4
+
+ob=ABC()
+ob.add()
+ob.sub()
+
