@@ -1,0 +1,9 @@
+try:
+    no=input("Enter No: ")
+    print(2/no)
+except NameError:   #to handle perticular known error
+    print("Enter Valid Data")
+except:              # Any type of error can be handdled
+    print("Any other Problem ")
+finally:            # any how this going to display 
+    print("Good By Ghari Javaaa")
