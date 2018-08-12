@@ -1,0 +1,17 @@
+
+print("Hi this is Python expert")
+
+stocks={
+    'Google':100,
+    'Apple':50,
+    'Yahoo':501,
+    'Fb':1005
+    }
+
+print(zip(stocks.values(),stocks.keys()))
+print(min(zip(stocks.values(),stocks.keys())))
+print(min(stocks.values()))
+
+print(max(zip(stocks.values(), stocks.keys())))
+
+print(sorted(zip(stocks.values(), stocks.keys())))
