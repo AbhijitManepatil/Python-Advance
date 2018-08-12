@@ -1,0 +1,22 @@
+print('Hi')
+
+class Emeney:
+    print("This is Enemey")
+    life =3
+    def attack(self):
+        self.life -=1
+    def checklife(self):
+        if self.life<=0:
+            print("I am Dead")
+        else:
+            print (str(self.life)+ " Life left")
+
+
+ob1=Emeney()
+ob2=Emeney()
+
+ob1.attack()
+ob1.attack()
+ob1.checklife()
+ob2.checklife()
+
