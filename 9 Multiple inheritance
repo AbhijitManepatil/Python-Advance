@@ -1,0 +1,20 @@
+class Mario():
+    def move(self):
+        print("I am moving")
+
+class eat_marshroom(Mario):
+    def mashroom(self):
+        print("I am Big")
+
+class Bigmario(Mario, eat_marshroom):
+    def BG(self):
+        print("I am Big Mario")
+
+ob=Bigmario()
+ob.BG()
+ob.mashroom()
+ob.move()
+
+ob1=eat_marshroom()
+ob1.mashroom()
+ob1.move()
