@@ -1,0 +1,12 @@
+class parent():
+    def last_name(self):
+        print("Manepatil")
+
+class child(parent):
+    def first_name(self):
+        print("Abhijit")
+
+ob=child()
+
+ob.last_name()
+ob.first_name()
