@@ -1,0 +1,13 @@
+
+print 'This is init function'
+
+class ABC:
+    def __init__(self):     #init function is like a constructor
+        print("Hi this is init funtion")
+    def display(self):
+        print("This is function in class ABC")
+
+ob=ABC()  # when you create a object of class at the same time init will get call
+
+ob.__init__()  #extra call
+ob.display()
